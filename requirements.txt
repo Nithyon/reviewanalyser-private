@@ -1,0 +1,9 @@
+google-play-scraper
+requests
+torch
+transformers
+sentencepiece
+protobuf
+tiktoken
+python-dotenv
+httpx

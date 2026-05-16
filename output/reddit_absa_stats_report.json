@@ -1,0 +1,249 @@
+{
+  "input_file": "output\\reddit_zepto_jina_absa.tsv",
+  "total_rows": 778,
+  "aspect_distribution": {
+    "Offers and Promotions": 224,
+    "Refund and Payment Issues": 125,
+    "Customer Service and Support": 123,
+    "Product Quality and Freshness": 121,
+    "Delivery Speed and Timeliness": 68,
+    "Pricing and Charges": 35,
+    "App Usability and Interface": 25,
+    "Product Availability and Stock": 24,
+    "Location and Serviceability": 23,
+    "Unknown": 10
+  },
+  "aspect_sentiment_crosstab": {
+    "Location and Serviceability": {
+      "negative": 21,
+      "positive": 2
+    },
+    "Pricing and Charges": {
+      "positive": 15,
+      "negative": 16,
+      "neutral": 4
+    },
+    "Customer Service and Support": {
+      "negative": 80,
+      "positive": 31,
+      "neutral": 12
+    },
+    "Refund and Payment Issues": {
+      "negative": 111,
+      "positive": 8,
+      "neutral": 6
+    },
+    "Product Quality and Freshness": {
+      "negative": 73,
+      "neutral": 11,
+      "positive": 37
+    },
+    "Delivery Speed and Timeliness": {
+      "negative": 49,
+      "positive": 16,
+      "neutral": 3
+    },
+    "Offers and Promotions": {
+      "negative": 141,
+      "positive": 75,
+      "neutral": 8
+    },
+    "Product Availability and Stock": {
+      "negative": 20,
+      "positive": 4
+    },
+    "App Usability and Interface": {
+      "positive": 13,
+      "negative": 5,
+      "neutral": 7
+    },
+    "Unknown": {
+      "negative": 9,
+      "positive": 1
+    }
+  },
+  "aspect_avg_ratings": {
+    "Location and Serviceability": 3.22,
+    "Pricing and Charges": 22.94,
+    "Customer Service and Support": 13.63,
+    "Refund and Payment Issues": 8.24,
+    "Product Quality and Freshness": 10.35,
+    "Delivery Speed and Timeliness": 6.34,
+    "Offers and Promotions": 6.98,
+    "Product Availability and Stock": 3.88,
+    "App Usability and Interface": 1.04,
+    "Unknown": 1.0
+  },
+  "confidence_stats": {
+    "mean": 0.1169,
+    "min": 0.0,
+    "max": 0.13
+  },
+  "theme_aspect_overlap": {
+    "free_cash_issue": {
+      "Customer Service and Support": 26,
+      "Offers and Promotions": 41,
+      "Product Availability and Stock": 5,
+      "Delivery Speed and Timeliness": 6,
+      "Pricing and Charges": 4,
+      "Refund and Payment Issues": 20,
+      "Product Quality and Freshness": 17,
+      "App Usability and Interface": 2,
+      "Location and Serviceability": 1
+    },
+    "refund_payment": {
+      "Product Quality and Freshness": 10,
+      "Refund and Payment Issues": 24,
+      "Offers and Promotions": 2,
+      "Product Availability and Stock": 1,
+      "Pricing and Charges": 2,
+      "Customer Service and Support": 5,
+      "Delivery Speed and Timeliness": 1,
+      "Unknown": 1
+    },
+    "support_service": {
+      "Product Quality and Freshness": 7,
+      "Customer Service and Support": 21,
+      "Delivery Speed and Timeliness": 6,
+      "Offers and Promotions": 13,
+      "App Usability and Interface": 1,
+      "Refund and Payment Issues": 13,
+      "Product Availability and Stock": 5,
+      "Pricing and Charges": 3,
+      "Location and Serviceability": 4
+    },
+    "pricing_charges": {
+      "Product Availability and Stock": 5,
+      "Pricing and Charges": 16,
+      "Delivery Speed and Timeliness": 3,
+      "Offers and Promotions": 15,
+      "Customer Service and Support": 8,
+      "Product Quality and Freshness": 21,
+      "App Usability and Interface": 19,
+      "Refund and Payment Issues": 12,
+      "Location and Serviceability": 3
+    },
+    "product_quality": {
+      "Delivery Speed and Timeliness": 1,
+      "Offers and Promotions": 10,
+      "Customer Service and Support": 4,
+      "Product Quality and Freshness": 18,
+      "Refund and Payment Issues": 4,
+      "Pricing and Charges": 1,
+      "Location and Serviceability": 3
+    },
+    "delivery_delay": {
+      "Customer Service and Support": 12,
+      "Delivery Speed and Timeliness": 9,
+      "Refund and Payment Issues": 16,
+      "Offers and Promotions": 51,
+      "App Usability and Interface": 1,
+      "Product Quality and Freshness": 6,
+      "Location and Serviceability": 5,
+      "Pricing and Charges": 2
+    },
+    "app_bugs": {
+      "Customer Service and Support": 5,
+      "Product Quality and Freshness": 1,
+      "Delivery Speed and Timeliness": 5,
+      "Offers and Promotions": 8,
+      "Pricing and Charges": 1,
+      "Refund and Payment Issues": 8,
+      "Product Availability and Stock": 1,
+      "Location and Serviceability": 1,
+      "App Usability and Interface": 1
+    },
+    "location_unavailable": {
+      "Product Availability and Stock": 3,
+      "Refund and Payment Issues": 5,
+      "Location and Serviceability": 2,
+      "Product Quality and Freshness": 5,
+      "Delivery Speed and Timeliness": 4,
+      "Offers and Promotions": 5,
+      "Pricing and Charges": 1
+    },
+    "out_of_stock": {
+      "Offers and Promotions": 2,
+      "Customer Service and Support": 1,
+      "Refund and Payment Issues": 6,
+      "Product Quality and Freshness": 4,
+      "Product Availability and Stock": 4,
+      "Delivery Speed and Timeliness": 2,
+      "Location and Serviceability": 1
+    }
+  },
+  "monthly_trends": {
+    "2025-04": {
+      "Delivery Speed and Timeliness": 36,
+      "Product Quality and Freshness": 89,
+      "Offers and Promotions": 159,
+      "Refund and Payment Issues": 82,
+      "Customer Service and Support": 93,
+      "Product Availability and Stock": 15,
+      "Pricing and Charges": 25,
+      "Location and Serviceability": 18,
+      "App Usability and Interface": 22,
+      "Unknown": 10
+    },
+    "2025-05": {
+      "Location and Serviceability": 5,
+      "Pricing and Charges": 10,
+      "Customer Service and Support": 30,
+      "Refund and Payment Issues": 43,
+      "Product Quality and Freshness": 32,
+      "Delivery Speed and Timeliness": 32,
+      "Offers and Promotions": 65,
+      "Product Availability and Stock": 9,
+      "App Usability and Interface": 3
+    }
+  },
+  "hypotheses": {
+    "H1_ABSA_improvement": {
+      "description": "ABSA provides aspect-level granularity vs overall sentiment",
+      "total_reviews": 778,
+      "reviews_with_aspect": 768,
+      "classification_rate": 98.71,
+      "reviews_with_multiple_themes": 124,
+      "granularity_gain_pct": 16.15
+    },
+    "H2_delivery_speed_impact": {
+      "description": "Delivery speed has significant positive impact on customer sentiment",
+      "total_delivery_reviews": 68,
+      "positive_pct": 23.53,
+      "negative_pct": 72.06,
+      "avg_rating": 6.34,
+      "sentiment_ratio": 0.3265
+    },
+    "H3_pricing_negative_sentiment": {
+      "description": "Pricing perception significantly influences negative sentiment",
+      "total_pricing_reviews": 35,
+      "negative_pct": 45.71,
+      "positive_pct": 42.86,
+      "negative_dominance": true
+    },
+    "H4_customer_service_quality": {
+      "description": "Customer service quality positively affects brand sentiment",
+      "total_service_reviews": 146,
+      "positive_pct": 22.6,
+      "negative_pct": 69.18,
+      "avg_rating": 11.99
+    },
+    "H5_social_media_sentiment_satisfaction": {
+      "description": "Social media sentiment predicts customer satisfaction levels",
+      "avg_rating": 8.94,
+      "sentiment_distribution": {
+        "negative": 525,
+        "positive": 202,
+        "neutral": 51
+      },
+      "correlation_direction": "negative"
+    },
+    "H6_ai_social_listening": {
+      "description": "AI-driven social listening improves insight generation vs rule-based",
+      "rule_based_coverage": 45.63,
+      "absa_coverage": 98.71,
+      "coverage_improvement_pct": 116.34,
+      "unique_aspects_identified": 10
+    }
+  }
+}

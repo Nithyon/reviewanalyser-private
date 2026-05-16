@@ -1,0 +1,81 @@
+{
+  "input_file": "output\\reddit_zepto_mbert_sentiment.tsv",
+  "rows_total": 778,
+  "rows_classified": 768,
+  "rows_skipped": 10,
+  "model": "jina-embeddings-v3",
+  "aspect_labels": [
+    "Delivery Speed and Timeliness",
+    "Pricing and Charges",
+    "Product Quality and Freshness",
+    "Customer Service and Support",
+    "Product Availability and Stock",
+    "App Usability and Interface",
+    "Refund and Payment Issues",
+    "Location and Serviceability",
+    "Offers and Promotions"
+  ],
+  "aspect_counts": {
+    "Offers and Promotions": 224,
+    "Refund and Payment Issues": 125,
+    "Customer Service and Support": 123,
+    "Product Quality and Freshness": 121,
+    "Delivery Speed and Timeliness": 68,
+    "Pricing and Charges": 35,
+    "App Usability and Interface": 25,
+    "Product Availability and Stock": 24,
+    "Location and Serviceability": 23,
+    "Unknown": 10
+  },
+  "aspect_sentiment_crosstab": {
+    "Location and Serviceability": {
+      "negative": 21,
+      "positive": 2
+    },
+    "Pricing and Charges": {
+      "positive": 15,
+      "negative": 16,
+      "neutral": 4
+    },
+    "Customer Service and Support": {
+      "negative": 80,
+      "positive": 31,
+      "neutral": 12
+    },
+    "Refund and Payment Issues": {
+      "negative": 111,
+      "positive": 8,
+      "neutral": 6
+    },
+    "Product Quality and Freshness": {
+      "negative": 73,
+      "neutral": 11,
+      "positive": 37
+    },
+    "Delivery Speed and Timeliness": {
+      "negative": 49,
+      "positive": 16,
+      "neutral": 3
+    },
+    "Offers and Promotions": {
+      "negative": 141,
+      "positive": 75,
+      "neutral": 8
+    },
+    "Product Availability and Stock": {
+      "negative": 20,
+      "positive": 4
+    },
+    "App Usability and Interface": {
+      "positive": 13,
+      "negative": 5,
+      "neutral": 7
+    },
+    "Unknown": {
+      "negative": 9,
+      "positive": 1
+    }
+  },
+  "output_csv": "output\\reddit_zepto_jina_absa.csv",
+  "output_tsv": "output\\reddit_zepto_jina_absa.tsv"
+}

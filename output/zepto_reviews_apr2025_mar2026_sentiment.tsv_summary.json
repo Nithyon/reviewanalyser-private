@@ -1,0 +1,25 @@
+{
+  "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+  "rows_total": 144006,
+  "rows_scored": 141366,
+  "rows_skipped_too_short": 2640,
+  "avg_rating": 3.3975,
+  "sentiment_counts": {
+    "negative": 34841,
+    "positive": 87619,
+    "neutral": 21546
+  },
+  "theme_counts": {
+    "support_service": 18992,
+    "free_cash_issue": 17182,
+    "pricing_charges": 8424,
+    "product_quality": 7985,
+    "delivery_delay": 4359,
+    "refund_payment": 4147,
+    "app_bugs": 2563,
+    "out_of_stock": 1917,
+    "location_unavailable": 1860
+  },
+  "output_csv": "output\\zepto_reviews_apr2025_mar2026_sentiment.csv",
+  "output_tsv": "output\\zepto_reviews_apr2025_mar2026_sentiment.tsv"
+}

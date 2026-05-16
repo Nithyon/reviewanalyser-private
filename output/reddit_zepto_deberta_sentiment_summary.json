@@ -1,0 +1,26 @@
+{
+  "input_file": "output\\reddit_zepto_posts_apr2025_mar2026_forsentiment.tsv",
+  "rows_total": 778,
+  "rows_scored": 778,
+  "rows_skipped_too_short": 0,
+  "rows_model_failed": 0,
+  "sentiment_model": "mrm8488/deberta-v3-small-finetuned-sst2",
+  "avg_rating": 3.0,
+  "sentiment_counts": {
+    "negative": 703,
+    "positive": 75
+  },
+  "theme_counts": {
+    "free_cash_issue": 122,
+    "pricing_charges": 102,
+    "delivery_delay": 102,
+    "support_service": 73,
+    "refund_payment": 46,
+    "product_quality": 41,
+    "app_bugs": 31,
+    "location_unavailable": 25,
+    "out_of_stock": 20
+  },
+  "output_csv": "output\\reddit_zepto_deberta_sentiment.csv",
+  "output_tsv": "output\\reddit_zepto_deberta_sentiment.tsv"
+}

@@ -1,0 +1,27 @@
+{
+  "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+  "rows_total": 200,
+  "rows_scored": 198,
+  "rows_skipped_too_short": 2,
+  "rows_model_failed": 0,
+  "sentiment_model": "nlptown/bert-base-multilingual-uncased-sentiment",
+  "avg_rating": 3.05,
+  "sentiment_counts": {
+    "negative": 94,
+    "positive": 93,
+    "neutral": 13
+  },
+  "theme_counts": {
+    "support_service": 41,
+    "delivery_delay": 15,
+    "product_quality": 14,
+    "refund_payment": 10,
+    "pricing_charges": 7,
+    "location_unavailable": 7,
+    "out_of_stock": 7,
+    "free_cash_issue": 4,
+    "app_bugs": 1
+  },
+  "output_csv": "output\\zepto_reviews_mbert_sentiment_test.csv",
+  "output_tsv": "output\\zepto_reviews_mbert_sentiment_test.tsv"
+}

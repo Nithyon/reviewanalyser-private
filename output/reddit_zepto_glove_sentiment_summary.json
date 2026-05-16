@@ -1,0 +1,10 @@
+{
+  "rows_total": 778,
+  "rows_scored": 778,
+  "model": "GloVe/TF-IDF+LR",
+  "sentiment_counts": {
+    "negative": 671,
+    "positive": 99,
+    "neutral": 8
+  }
+}

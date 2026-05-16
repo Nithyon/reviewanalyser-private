@@ -1,0 +1,605 @@
+{
+  "analysis_model": "mbert",
+  "analysis_row_count": 144006,
+  "compared_models": [
+    "baseline",
+    "deberta",
+    "mbert"
+  ],
+  "input_files": {
+    "mbert": "output\\zepto_reviews_mbert_sentiment.csv",
+    "deberta": "output\\zepto_reviews_deberta_sentiment.csv",
+    "baseline": "output\\zepto_reviews_apr2025_mar2026_sentiment.csv"
+  },
+  "monthly_trends": {
+    "2025-04": {
+      "total": 19254,
+      "negative": 6545,
+      "neutral": 1173,
+      "positive": 11536,
+      "negative_pct": 33.99,
+      "neutral_pct": 6.09,
+      "positive_pct": 59.91
+    },
+    "2025-05": {
+      "total": 22924,
+      "negative": 9805,
+      "neutral": 1288,
+      "positive": 11831,
+      "negative_pct": 42.77,
+      "neutral_pct": 5.62,
+      "positive_pct": 51.61
+    },
+    "2025-06": {
+      "total": 18532,
+      "negative": 10221,
+      "neutral": 1096,
+      "positive": 7215,
+      "negative_pct": 55.15,
+      "neutral_pct": 5.91,
+      "positive_pct": 38.93
+    },
+    "2025-07": {
+      "total": 16116,
+      "negative": 6121,
+      "neutral": 942,
+      "positive": 9053,
+      "negative_pct": 37.98,
+      "neutral_pct": 5.85,
+      "positive_pct": 56.17
+    },
+    "2025-08": {
+      "total": 12241,
+      "negative": 4232,
+      "neutral": 725,
+      "positive": 7284,
+      "negative_pct": 34.57,
+      "neutral_pct": 5.92,
+      "positive_pct": 59.5
+    },
+    "2025-09": {
+      "total": 11894,
+      "negative": 3658,
+      "neutral": 769,
+      "positive": 7467,
+      "negative_pct": 30.76,
+      "neutral_pct": 6.47,
+      "positive_pct": 62.78
+    },
+    "2025-10": {
+      "total": 14287,
+      "negative": 3874,
+      "neutral": 855,
+      "positive": 9558,
+      "negative_pct": 27.12,
+      "neutral_pct": 5.98,
+      "positive_pct": 66.9
+    },
+    "2025-11": {
+      "total": 5895,
+      "negative": 1988,
+      "neutral": 366,
+      "positive": 3541,
+      "negative_pct": 33.72,
+      "neutral_pct": 6.21,
+      "positive_pct": 60.07
+    },
+    "2025-12": {
+      "total": 6767,
+      "negative": 2068,
+      "neutral": 410,
+      "positive": 4289,
+      "negative_pct": 30.56,
+      "neutral_pct": 6.06,
+      "positive_pct": 63.38
+    },
+    "2026-01": {
+      "total": 6595,
+      "negative": 2282,
+      "neutral": 395,
+      "positive": 3918,
+      "negative_pct": 34.6,
+      "neutral_pct": 5.99,
+      "positive_pct": 59.41
+    },
+    "2026-02": {
+      "total": 6509,
+      "negative": 2561,
+      "neutral": 410,
+      "positive": 3538,
+      "negative_pct": 39.35,
+      "neutral_pct": 6.3,
+      "positive_pct": 54.36
+    },
+    "2026-03": {
+      "total": 2992,
+      "negative": 1350,
+      "neutral": 186,
+      "positive": 1456,
+      "negative_pct": 45.12,
+      "neutral_pct": 6.22,
+      "positive_pct": 48.66
+    }
+  },
+  "theme_by_rating_bucket": {
+    "1": {
+      "reviews": 51986,
+      "top_themes": [
+        {
+          "theme": "free_cash_issue",
+          "review_count": 13344,
+          "prevalence_pct": 25.67
+        },
+        {
+          "theme": "support_service",
+          "review_count": 9811,
+          "prevalence_pct": 18.87
+        },
+        {
+          "theme": "product_quality",
+          "review_count": 5465,
+          "prevalence_pct": 10.51
+        },
+        {
+          "theme": "pricing_charges",
+          "review_count": 5053,
+          "prevalence_pct": 9.72
+        },
+        {
+          "theme": "refund_payment",
+          "review_count": 3820,
+          "prevalence_pct": 7.35
+        },
+        {
+          "theme": "delivery_delay",
+          "review_count": 3692,
+          "prevalence_pct": 7.1
+        },
+        {
+          "theme": "app_bugs",
+          "review_count": 2215,
+          "prevalence_pct": 4.26
+        },
+        {
+          "theme": "out_of_stock",
+          "review_count": 1523,
+          "prevalence_pct": 2.93
+        },
+        {
+          "theme": "location_unavailable",
+          "review_count": 1422,
+          "prevalence_pct": 2.74
+        }
+      ]
+    },
+    "2": {
+      "reviews": 3122,
+      "top_themes": [
+        {
+          "theme": "free_cash_issue",
+          "review_count": 745,
+          "prevalence_pct": 23.86
+        },
+        {
+          "theme": "pricing_charges",
+          "review_count": 380,
+          "prevalence_pct": 12.17
+        },
+        {
+          "theme": "support_service",
+          "review_count": 310,
+          "prevalence_pct": 9.93
+        },
+        {
+          "theme": "product_quality",
+          "review_count": 241,
+          "prevalence_pct": 7.72
+        },
+        {
+          "theme": "delivery_delay",
+          "review_count": 188,
+          "prevalence_pct": 6.02
+        },
+        {
+          "theme": "app_bugs",
+          "review_count": 148,
+          "prevalence_pct": 4.74
+        },
+        {
+          "theme": "refund_payment",
+          "review_count": 128,
+          "prevalence_pct": 4.1
+        },
+        {
+          "theme": "out_of_stock",
+          "review_count": 125,
+          "prevalence_pct": 4.0
+        },
+        {
+          "theme": "location_unavailable",
+          "review_count": 123,
+          "prevalence_pct": 3.94
+        }
+      ]
+    },
+    "3": {
+      "reviews": 3042,
+      "top_themes": [
+        {
+          "theme": "free_cash_issue",
+          "review_count": 399,
+          "prevalence_pct": 13.12
+        },
+        {
+          "theme": "pricing_charges",
+          "review_count": 238,
+          "prevalence_pct": 7.82
+        },
+        {
+          "theme": "support_service",
+          "review_count": 196,
+          "prevalence_pct": 6.44
+        },
+        {
+          "theme": "product_quality",
+          "review_count": 153,
+          "prevalence_pct": 5.03
+        },
+        {
+          "theme": "delivery_delay",
+          "review_count": 121,
+          "prevalence_pct": 3.98
+        },
+        {
+          "theme": "out_of_stock",
+          "review_count": 114,
+          "prevalence_pct": 3.75
+        },
+        {
+          "theme": "location_unavailable",
+          "review_count": 87,
+          "prevalence_pct": 2.86
+        },
+        {
+          "theme": "app_bugs",
+          "review_count": 67,
+          "prevalence_pct": 2.2
+        },
+        {
+          "theme": "refund_payment",
+          "review_count": 63,
+          "prevalence_pct": 2.07
+        }
+      ]
+    },
+    "4": {
+      "reviews": 7370,
+      "top_themes": [
+        {
+          "theme": "support_service",
+          "review_count": 648,
+          "prevalence_pct": 8.79
+        },
+        {
+          "theme": "free_cash_issue",
+          "review_count": 411,
+          "prevalence_pct": 5.58
+        },
+        {
+          "theme": "pricing_charges",
+          "review_count": 336,
+          "prevalence_pct": 4.56
+        },
+        {
+          "theme": "product_quality",
+          "review_count": 218,
+          "prevalence_pct": 2.96
+        },
+        {
+          "theme": "delivery_delay",
+          "review_count": 91,
+          "prevalence_pct": 1.23
+        },
+        {
+          "theme": "out_of_stock",
+          "review_count": 74,
+          "prevalence_pct": 1.0
+        },
+        {
+          "theme": "location_unavailable",
+          "review_count": 70,
+          "prevalence_pct": 0.95
+        },
+        {
+          "theme": "refund_payment",
+          "review_count": 37,
+          "prevalence_pct": 0.5
+        },
+        {
+          "theme": "app_bugs",
+          "review_count": 37,
+          "prevalence_pct": 0.5
+        }
+      ]
+    },
+    "5": {
+      "reviews": 78486,
+      "top_themes": [
+        {
+          "theme": "support_service",
+          "review_count": 8027,
+          "prevalence_pct": 10.23
+        },
+        {
+          "theme": "pricing_charges",
+          "review_count": 2417,
+          "prevalence_pct": 3.08
+        },
+        {
+          "theme": "free_cash_issue",
+          "review_count": 2283,
+          "prevalence_pct": 2.91
+        },
+        {
+          "theme": "product_quality",
+          "review_count": 1908,
+          "prevalence_pct": 2.43
+        },
+        {
+          "theme": "delivery_delay",
+          "review_count": 267,
+          "prevalence_pct": 0.34
+        },
+        {
+          "theme": "location_unavailable",
+          "review_count": 158,
+          "prevalence_pct": 0.2
+        },
+        {
+          "theme": "refund_payment",
+          "review_count": 99,
+          "prevalence_pct": 0.13
+        },
+        {
+          "theme": "app_bugs",
+          "review_count": 96,
+          "prevalence_pct": 0.12
+        },
+        {
+          "theme": "out_of_stock",
+          "review_count": 81,
+          "prevalence_pct": 0.1
+        }
+      ]
+    }
+  },
+  "pairwise_agreement": {
+    "baseline_vs_deberta": {
+      "overlap_rows": 144006,
+      "agreement_rate": 0.6785,
+      "cohen_kappa": 0.457,
+      "confusion_matrix": {
+        "negative": {
+          "negative": 34276,
+          "neutral": 0,
+          "positive": 565
+        },
+        "neutral": {
+          "negative": 14370,
+          "neutral": 2640,
+          "positive": 4536
+        },
+        "positive": {
+          "negative": 26826,
+          "neutral": 0,
+          "positive": 60793
+        }
+      }
+    },
+    "baseline_vs_mbert": {
+      "overlap_rows": 144006,
+      "agreement_rate": 0.7699,
+      "cohen_kappa": 0.5879,
+      "confusion_matrix": {
+        "negative": {
+          "negative": 33154,
+          "neutral": 912,
+          "positive": 775
+        },
+        "neutral": {
+          "negative": 9040,
+          "neutral": 5158,
+          "positive": 7348
+        },
+        "positive": {
+          "negative": 12511,
+          "neutral": 2545,
+          "positive": 72563
+        }
+      }
+    },
+    "deberta_vs_mbert": {
+      "overlap_rows": 144006,
+      "agreement_rate": 0.8317,
+      "cohen_kappa": 0.6903,
+      "confusion_matrix": {
+        "negative": {
+          "negative": 53480,
+          "neutral": 4952,
+          "positive": 17040
+        },
+        "neutral": {
+          "negative": 0,
+          "neutral": 2640,
+          "positive": 0
+        },
+        "positive": {
+          "negative": 1225,
+          "neutral": 1023,
+          "positive": 63646
+        }
+      }
+    }
+  },
+  "multi_model_disagreement": {
+    "shared_rows": 144006,
+    "unanimous": 95381,
+    "two_vs_one": 42207,
+    "all_different": 6418,
+    "unanimous_pct": 66.23,
+    "two_vs_one_pct": 29.31,
+    "all_different_pct": 4.46,
+    "sample_disagreements": [
+      {
+        "id": "00006c78-2389-4e51-a3f9-ed272119e503",
+        "baseline": "negative",
+        "deberta": "negative",
+        "mbert": "neutral"
+      },
+      {
+        "id": "00013f45-09b6-4d88-9388-635ef88b1c5b",
+        "baseline": "neutral",
+        "deberta": "positive",
+        "mbert": "positive"
+      },
+      {
+        "id": "0001f4b0-c2e5-466f-b65b-27ab9e5f2fb4",
+        "baseline": "positive",
+        "deberta": "negative",
+        "mbert": "negative"
+      },
+      {
+        "id": "0002ecb2-ede9-43fd-95f8-4fde7857854d",
+        "baseline": "neutral",
+        "deberta": "negative",
+        "mbert": "negative"
+      },
+      {
+        "id": "0007acd8-325a-40de-96bc-840cb478d202",
+        "baseline": "positive",
+        "deberta": "negative",
+        "mbert": "negative"
+      }
+    ]
+  },
+  "calibration": {
+    "samples": 144006,
+    "proxy_accuracy": 0.8779,
+    "avg_confidence": 0.5844,
+    "ece": 0.2935,
+    "bins": [
+      {
+        "range": "0.0-0.1",
+        "samples": 2640,
+        "avg_confidence": 0.0,
+        "proxy_accuracy": 0.0311,
+        "gap": 0.0311
+      },
+      {
+        "range": "0.2-0.3",
+        "samples": 5207,
+        "avg_confidence": 0.2676,
+        "proxy_accuracy": 0.3584,
+        "gap": 0.0908
+      },
+      {
+        "range": "0.3-0.4",
+        "samples": 11093,
+        "avg_confidence": 0.3487,
+        "proxy_accuracy": 0.6321,
+        "gap": 0.2834
+      },
+      {
+        "range": "0.4-0.5",
+        "samples": 42193,
+        "avg_confidence": 0.4704,
+        "proxy_accuracy": 0.9072,
+        "gap": 0.4368
+      },
+      {
+        "range": "0.5-0.6",
+        "samples": 25228,
+        "avg_confidence": 0.54,
+        "proxy_accuracy": 0.926,
+        "gap": 0.3861
+      },
+      {
+        "range": "0.6-0.7",
+        "samples": 14666,
+        "avg_confidence": 0.6493,
+        "proxy_accuracy": 0.9399,
+        "gap": 0.2906
+      },
+      {
+        "range": "0.7-0.8",
+        "samples": 15560,
+        "avg_confidence": 0.7546,
+        "proxy_accuracy": 0.963,
+        "gap": 0.2084
+      },
+      {
+        "range": "0.8-0.9",
+        "samples": 17718,
+        "avg_confidence": 0.8508,
+        "proxy_accuracy": 0.9841,
+        "gap": 0.1333
+      },
+      {
+        "range": "0.9-1.0",
+        "samples": 9701,
+        "avg_confidence": 0.936,
+        "proxy_accuracy": 0.991,
+        "gap": 0.055
+      }
+    ]
+  },
+  "rating_sentiment_association": {
+    "samples": 144006,
+    "chi_square": 108051.5592,
+    "cramers_v": 0.6125,
+    "contingency": {
+      "1": {
+        "negative": 47077,
+        "neutral": 2133,
+        "positive": 2776
+      },
+      "2": {
+        "negative": 2265,
+        "neutral": 398,
+        "positive": 459
+      },
+      "3": {
+        "negative": 1304,
+        "neutral": 683,
+        "positive": 1055
+      },
+      "4": {
+        "negative": 716,
+        "neutral": 867,
+        "positive": 5787
+      },
+      "5": {
+        "negative": 3343,
+        "neutral": 4534,
+        "positive": 70609
+      }
+    },
+    "avg_rating_by_sentiment": {
+      "negative": 1.3728,
+      "positive": 4.7474,
+      "neutral": 3.6118
+    }
+  },
+  "top_findings": [
+    "Base analysis model: mbert. Rows analyzed: 144006.",
+    "Rating-sentiment association (Cramer's V): 0.6125 over 144006 rows.",
+    "Model consensus on shared rows: 66.23% unanimous, 29.31% two-vs-one, 4.46% all-different.",
+    "Strongest pairwise agreement: deberta_vs_mbert (kappa=0.6903).",
+    "Weakest pairwise agreement: baseline_vs_deberta (kappa=0.457).",
+    "Calibration proxy on 144006 rows: accuracy=0.8779, avg_confidence=0.5844, ECE=0.2935.",
+    "Highest positive-share month: 2025-10 (66.9%).",
+    "Highest negative-share month: 2025-06 (55.15%).",
+    "Top theme at 1-star: free_cash_issue (25.67% prevalence).",
+    "Top theme at 5-star: support_service (10.23% prevalence)."
+  ]
+}

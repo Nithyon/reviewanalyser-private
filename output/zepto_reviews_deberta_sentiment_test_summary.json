@@ -1,0 +1,26 @@
+{
+  "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+  "rows_total": 100,
+  "rows_scored": 98,
+  "rows_skipped_too_short": 2,
+  "rows_model_failed": 0,
+  "sentiment_model": "mrm8488/deberta-v3-small-finetuned-sst2",
+  "avg_rating": 3.12,
+  "sentiment_counts": {
+    "negative": 59,
+    "positive": 39,
+    "neutral": 2
+  },
+  "theme_counts": {
+    "support_service": 24,
+    "product_quality": 9,
+    "delivery_delay": 6,
+    "pricing_charges": 4,
+    "refund_payment": 4,
+    "location_unavailable": 3,
+    "free_cash_issue": 2,
+    "out_of_stock": 1
+  },
+  "output_csv": "output\\zepto_reviews_deberta_sentiment_test.csv",
+  "output_tsv": "output\\zepto_reviews_deberta_sentiment_test.tsv"
+}

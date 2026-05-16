@@ -1,0 +1,182 @@
+{
+  "records": [
+    {
+      "source": "zepto_reviews_bert_sentiment.tsv",
+      "model_key": "bert",
+      "model_name": "nlptown/bert-base-multilingual-uncased-sentiment",
+      "run_type": "full",
+      "rows_total": 144006,
+      "rows_scored": 144006,
+      "rows_skipped_too_short": 0,
+      "rows_model_failed": 0,
+      "avg_rating": null,
+      "sentiment_counts": {
+        "negative": 54705,
+        "neutral": 6955,
+        "positive": 82346
+      },
+      "theme_counts": {},
+      "output_csv": null,
+      "output_tsv": "output\\zepto_reviews_bert_sentiment.tsv",
+      "input_file": null,
+      "has_summary_json": false,
+      "avg_confidence": 0.5913,
+      "stars_column": "BERT_Stars"
+    },
+    {
+      "source": "zepto_reviews_deberta_sentiment_summary.json",
+      "model_key": "deberta",
+      "model_name": "mrm8488/deberta-v3-small-finetuned-sst2",
+      "run_type": "full",
+      "rows_total": 144006,
+      "rows_scored": 141366,
+      "rows_skipped_too_short": 2640,
+      "rows_model_failed": 0,
+      "avg_rating": 3.3975,
+      "sentiment_counts": {
+        "negative": 75472,
+        "neutral": 2640,
+        "positive": 65894
+      },
+      "theme_counts": {
+        "support_service": 18992,
+        "free_cash_issue": 17182,
+        "pricing_charges": 8424,
+        "product_quality": 7985,
+        "delivery_delay": 4359,
+        "refund_payment": 4147,
+        "app_bugs": 2563,
+        "out_of_stock": 1917,
+        "location_unavailable": 1860
+      },
+      "output_csv": "output\\zepto_reviews_deberta_sentiment.csv",
+      "output_tsv": "output\\zepto_reviews_deberta_sentiment.tsv",
+      "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+      "has_summary_json": true
+    },
+    {
+      "source": "zepto_reviews_mbert_sentiment_summary.json",
+      "model_key": "mbert",
+      "model_name": "nlptown/bert-base-multilingual-uncased-sentiment",
+      "run_type": "full",
+      "rows_total": 144006,
+      "rows_scored": 141366,
+      "rows_skipped_too_short": 2640,
+      "rows_model_failed": 0,
+      "avg_rating": 3.3975,
+      "sentiment_counts": {
+        "negative": 54705,
+        "neutral": 8615,
+        "positive": 80686
+      },
+      "theme_counts": {
+        "support_service": 18992,
+        "free_cash_issue": 17182,
+        "pricing_charges": 8424,
+        "product_quality": 7985,
+        "delivery_delay": 4359,
+        "refund_payment": 4147,
+        "app_bugs": 2563,
+        "out_of_stock": 1917,
+        "location_unavailable": 1860
+      },
+      "output_csv": "output\\zepto_reviews_mbert_sentiment.csv",
+      "output_tsv": "output\\zepto_reviews_mbert_sentiment.tsv",
+      "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+      "has_summary_json": true
+    },
+    {
+      "source": "zepto_reviews_apr2025_mar2026_sentiment.tsv_summary.json",
+      "model_key": "unspecified",
+      "model_name": "unspecified-model",
+      "run_type": "full",
+      "rows_total": 144006,
+      "rows_scored": 141366,
+      "rows_skipped_too_short": 2640,
+      "rows_model_failed": 0,
+      "avg_rating": 3.3975,
+      "sentiment_counts": {
+        "negative": 34841,
+        "neutral": 21546,
+        "positive": 87619
+      },
+      "theme_counts": {
+        "support_service": 18992,
+        "free_cash_issue": 17182,
+        "pricing_charges": 8424,
+        "product_quality": 7985,
+        "delivery_delay": 4359,
+        "refund_payment": 4147,
+        "app_bugs": 2563,
+        "out_of_stock": 1917,
+        "location_unavailable": 1860
+      },
+      "output_csv": "output\\zepto_reviews_apr2025_mar2026_sentiment.csv",
+      "output_tsv": "output\\zepto_reviews_apr2025_mar2026_sentiment.tsv",
+      "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+      "has_summary_json": true
+    },
+    {
+      "source": "zepto_reviews_deberta_sentiment_test_summary.json",
+      "model_key": "deberta",
+      "model_name": "mrm8488/deberta-v3-small-finetuned-sst2",
+      "run_type": "test",
+      "rows_total": 100,
+      "rows_scored": 98,
+      "rows_skipped_too_short": 2,
+      "rows_model_failed": 0,
+      "avg_rating": 3.12,
+      "sentiment_counts": {
+        "negative": 59,
+        "neutral": 2,
+        "positive": 39
+      },
+      "theme_counts": {
+        "support_service": 24,
+        "product_quality": 9,
+        "delivery_delay": 6,
+        "pricing_charges": 4,
+        "refund_payment": 4,
+        "location_unavailable": 3,
+        "free_cash_issue": 2,
+        "out_of_stock": 1
+      },
+      "output_csv": "output\\zepto_reviews_deberta_sentiment_test.csv",
+      "output_tsv": "output\\zepto_reviews_deberta_sentiment_test.tsv",
+      "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+      "has_summary_json": true
+    },
+    {
+      "source": "zepto_reviews_mbert_sentiment_test_summary.json",
+      "model_key": "mbert",
+      "model_name": "nlptown/bert-base-multilingual-uncased-sentiment",
+      "run_type": "test",
+      "rows_total": 200,
+      "rows_scored": 198,
+      "rows_skipped_too_short": 2,
+      "rows_model_failed": 0,
+      "avg_rating": 3.05,
+      "sentiment_counts": {
+        "negative": 94,
+        "neutral": 13,
+        "positive": 93
+      },
+      "theme_counts": {
+        "support_service": 41,
+        "delivery_delay": 15,
+        "product_quality": 14,
+        "refund_payment": 10,
+        "pricing_charges": 7,
+        "location_unavailable": 7,
+        "out_of_stock": 7,
+        "free_cash_issue": 4,
+        "app_bugs": 1
+      },
+      "output_csv": "output\\zepto_reviews_mbert_sentiment_test.csv",
+      "output_tsv": "output\\zepto_reviews_mbert_sentiment_test.tsv",
+      "input_file": "output\\zepto_reviews_apr2025_mar2026_nvivo.tsv",
+      "has_summary_json": true
+    }
+  ],
+  "table_markdown": "| Model | Run | Rows | Scored | Neg | Neu | Pos | Neg % | Neu % | Pos % | Summary |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|\n| bert | full | 144006 | 144006 | 54705 | 6955 | 82346 | 38.0% | 4.8% | 57.2% | no |\n| deberta | full | 144006 | 141366 | 75472 | 2640 | 65894 | 52.4% | 1.8% | 45.8% | yes |\n| mbert | full | 144006 | 141366 | 54705 | 8615 | 80686 | 38.0% | 6.0% | 56.0% | yes |\n| unspecified | full | 144006 | 141366 | 34841 | 21546 | 87619 | 24.2% | 15.0% | 60.8% | yes |\n| deberta | test | 100 | 98 | 59 | 2 | 39 | 59.0% | 2.0% | 39.0% | yes |\n| mbert | test | 200 | 198 | 94 | 13 | 93 | 47.0% | 6.5% | 46.5% | yes |"
+}
